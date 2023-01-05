@@ -1,5 +1,5 @@
 function pigIt(str){
-    arrStr = str.split(' ');
+    let arrStr = str.split(' ');
     let result = arrStr.map(function(item){
         if(item === '!' || item === '?'){
             return item;
